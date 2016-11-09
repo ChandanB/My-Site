@@ -6,6 +6,7 @@
     <title></title>
     <link rel="stylesheet" href="simple-grid.css">
     <link rel="stylesheet" href="colors.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   </head>
 
@@ -26,12 +27,26 @@
   .col-100 {
     font-size: 50px;
     padding: 1px;
+
+  }
+
+  .col-25-2 {
+    font-size: 25px;
+    padding: 1px;
+    background-color: grey;
+
   }
 
  .col-45 {
    font-size: 20px;
    padding: 30px;
    font-weight: 100;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   order: 5;
+   align-content: flex-start;;
+
  }
 
  .col-Small-Facebook {
@@ -80,8 +95,6 @@
 
     <div class="menu">
 
-      
-
     <div class="grid clearfix">
         <div class="col-100 innerBoxes">
           <p align="center"> Chandan Brown </p>
@@ -102,11 +115,12 @@
         </div></a>
 
       </div>
+
         <div class="col-45 innerBoxes">
             <h3 align="center"> About Me </h3>
             <p align="center">I grew up in Flint Michigan but I am now studying Computer Science at Make School in San Francisco. I love writing, drawing, philosophy, talking conspiracy, and much more. I have always had the drive to learn and I consistently challenge myself to become better!</p>
-
             <p align="center">Contact Me: (810)-394-5939 </p>
+            <p align="center">For more information continue scrolling </p>
         </div>
 
         <div class="col-25">
@@ -126,6 +140,10 @@
         </div>
 
         <div class="clearfix"></div>
+
+        <div class="col-25-2">
+          <p align="center">Portfolio</p>
+          </div>
 
         </div>
   </body>
