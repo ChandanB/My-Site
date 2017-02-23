@@ -1,0 +1,11 @@
+click==6.7
+Flask==0.12
+gunicorn==19.6.0
+itsdangerous==0.24
+Jinja2==2.9.4
+MarkupSafe==0.23
+py==1.4.32
+pyserial==3.2.1
+pytest==3.0.6
+virtualenv==15.1.0
+Werkzeug==0.11.15
