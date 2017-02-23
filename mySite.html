@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title></title>
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="colors.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  </head>
+
+  <style>
+
+  a:link    {color:white; background-color:transparent; text-decoration:none}
+  a:visited {color:white; background-color:white; text-decoration:underline}
+  a:hover   {color:white; background-color:white; text-decoration:underline}
+  a:active  {color:blue; background-color:white; text-decoration:underline}
+
+   body {
+
+    background-color: #090000;
+    color: white;
+    font-family: "Avenir Next";
+  }
+
+  .col-100 {
+    font-size: 50px;
+    padding: 1px;
+  }
+
+  .col-25-2 {
+    font-size: 25px;
+    padding: 1px;
+    background-color: grey;
+  }
+
+ .col-45 {
+   font-size: 20px;
+   padding: 30px;
+   font-weight: 100;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   order: 5;
+   align-content: flex-start;;
+ }
+
+ .col-Small-Facebook {
+   font-size: 20px;
+   padding: 30px;
+   border: 4px solid #3B5998;
+ }
+
+ .col-Small-linkedIn {
+   font-size: 20px;
+   padding: 30px;
+   border: 4px solid #1C87BD;
+ }
+
+ .col-Small-Youtube {
+   font-size: 20px;
+   padding: 30px;
+   border: 4px solid #EE1C1B;
+ }
+
+ .col-Small-With-Border-Twitter {
+   font-size: 20px;
+   padding: 30px;
+   border: 4px solid #1B95E0;
+ }
+
+ .col-Small-With-Border-Github {
+   font-size: 20px;
+   padding: 30px;
+   border: 4px solid #fff;
+ }
+
+ .col-Small-With-Border-Email {
+   font-size: 20px;
+   padding: 30px;
+   border: 4px solid #DE564A;
+ }
+
+  </style>
+
+  <body>
+
+    <div class="menu">
+
+    <div class="grid clearfix">
+        <div class="col-100 innerBoxes">
+          <p align="center"> Chandan Brown </p>
+        </div>
+
+      <div class="col-25">
+
+        <a href="https://twitter.com/PicassosJournal"><div class="col-Small-With-Border-Twitter">
+            <p  align="center">Twitter</p>
+        </div></a>
+
+        <a href="https://github.com/ChandanB"><div class="col-Small-With-Border-Github">
+            <p  align="center">Github</p>
+        </div></a>
+
+        <a href="mailto:chandan.brown@students.makeschool.com?..." id="getInTouchButton"> <div class="col-Small-With-Border-Email">
+            <p  align="center">Email</p>
+        </div></a>
+
+      </div>
+
+        <div class="col-45 innerBoxes">
+            <p align="center">
+              As a native of Flint, Michigan, video games have been a staple of my life. By the age 9, I was convinced that I should be making games. I began writing stories for video games I envisioned, drawing characters and environments, and even created my own music and soundtracks. By 13 I had created my first game, and my love for video games soon became a love for computers in general. I hopes to create great experiences for users everywhere and make my love for computers, games, art, writing, and music, contagious for new generations.
+            </p>
+            <p align="center">Contact Me: (810)-394-5939 </p>
+        </div>
+
+        <div class="col-25">
+          <a href="https://www.facebook.com/profile.php?id=100013774751372&fref=ts"><div class="col-Small-Facebook facebookColor">
+              <p align="center">Facebook</p>
+          </div></a>
+
+          <a href="https://www.linkedin.com/in/chandan-brown-a7272a30?trk=nav_responsive_tab_profile_pic"><div class="col-Small-linkedIn linkedInColor">
+              <p align="center">linkedIn</p>
+
+          </div></a>
+
+          <a href="https://www.youtube.com/channel/UCSZKsyNE_7AMqdSh_r7LOvQ"><div class="col-Small-Youtube youtubeColor">
+              <p align="center">Youtube</p>
+          </div></a>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        </div>
+  </body>
+
+</html>

@@ -1,0 +1,115 @@
+/* Simple Grid CSS from: https://css-tricks.com/dont-overthink-it-grids/ */
+
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1000px;
+    margin: auto;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.sidefix:after {
+    content: " ";
+    display: table;
+    clear: left;
+}
+
+.col-100 {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.col-25-2 {
+    width: 15%;
+    height: 25%;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+
+.col-45 {
+    width: 45%;
+    height: 460px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+
+.col-25 {
+    width: 25%;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.col-Small {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.col-Small-Facebook {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.col-Small-linkedIn {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.col-Small-Youtube {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+
+
+.col-Small-With-Border-Twitter {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.col-Small-With-Border-Github {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.col-Small-With-Border-Email {
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 2em;
+}
+
+[class*='col-Small'] {
+    float: left;
+    padding: 1em;
+}
